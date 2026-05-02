@@ -16,7 +16,7 @@ function App() {
       <div className="fixed bottom-10  flex justify-center p-2 bg-black">
         <div className="flex flex-wrap justify-center gap-4 bg-black/50 backdrop-blur-md rounded-xl p-4 shadow-lg">
           <button
-            onClick={() => changeColor("white")}
+            onClick={() => changeColor("red")}
             className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 transition-all duration-200"
           >
             Press
